@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+	<!-- <link rel="shortcut icon" href="images/favicon.jpg"> -->
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+</head>
+<body>
+	<div class="page-wrapper">
+		<div class="container">
+			<form class="reserv">
+				<div class="order">
+					<label for="name">Confirmez votre Nom*</label>
+					<input type="text" id="name" placeholder="Chatelet">
+				</div>
+				<div class="order">
+					<label for="first-name">Prénom*</label>
+					<input type="text" id="first-name" placeholder="Elena">
+				</div>
+				<div class="order">
+					<label for="email">e-mail*</label>
+					<input type="email" id="email" placeholder="elchatelet@mail.com">
+				</div>
+				<div class="order select-box">
+					<label for="choise">Objet*</label>
+					<select name="choise" id="choise" class="select">
+						<option value="first">Demande d’informations sur la formule personnalisée</option>
+						<option value="second">Demande d’informations sur la formule personnalisée</option>
+						<option value="third">Demande d’informations sur la formule personnalisée</option>
+					</select>
+					<a href="#choise" class="down"><span class="icon-angle-down"></span></a>
+				</div>
+				<div class="order">
+					<label for="message">Message*</label>
+					<textarea name="message" id="message" cols="60" rows="5" placeholder="Rédigez votre message..."></textarea>
+				</div>
+				<div class="agreement">
+					<input type="checkbox" id="check"  name= "name-1">
+					<label for="check"><span class ="icon-tick"></span>En soumettant ce formulaire, j’accepte que les informations saisies soient exploitées dans le cadre de la relation commerciale Wedivorce</label>
+				</div>
+				<p class="note">* Veuillez remplir les Champs obligatoires</p>
+				<button class="btn">Envoyer</button>
+			</form>
+			<div class="social-icons">
+				<div class="circle">
+					<a href="#" class="icon">
+						<span class= "icon-facebook"></span>
+					</a>
+				</div>
+				<div class="circle">
+					<a href="#" class="icon">
+						<span class= "icon-instagram"></span>
+					</a>
+				</div>
+				<div class="circle">
+					<a href="#" class="icon">
+						<span class= "icon-linkedin2"></span>
+					</a>
+				</div>
+				<div class="circle">
+					<a href="#" class="icon">
+						<span class= "icon-youtube"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
