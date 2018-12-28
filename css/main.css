@@ -149,7 +149,7 @@ input[type="checkbox"]:checked + label .icon-tick {
 	border: none;
 }
 .btn:hover {
-    background: linear-gradient(to bottom, #e0837f 0%,#e06b67 50%,#e0534e 100%);
+	background-color: #fa364a;
 }
 .social-icons {
 	width: 180px;
@@ -170,6 +170,9 @@ input[type="checkbox"]:checked + label .icon-tick {
 	font-size: 30px;
 	color: #fff;
 }
+.circle  a:hover {
+	background-color: #e16e69;
+}
 @media (max-width: 768px) {
 	.btn {
 		align-self: center;
@@ -178,7 +181,6 @@ input[type="checkbox"]:checked + label .icon-tick {
 	}
 	.social-icons {
 		width: 100%;
-		/*margin: 0px auto 10px;*/
 		justify-content: center;
 	}
 }
