@@ -10,12 +10,12 @@
 }
 .container {
 	margin: 50px auto;
-	max-width: 800px;
+	max-width: 885px;
 	padding: 2px 10px;
 }
 form.reserv {
 	padding: 10px;
-	margin: 5px auto;
+	margin: 5px auto 35px;
 	text-transform: uppercase;
 	color: #525252;
 	display: flex;
@@ -31,24 +31,36 @@ form.reserv {
 .order label {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 16px;
-	padding: 3px;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 0.01em;
+	padding: 3px 0px 14px;
 }
 .order input,
 .order .select,
 .order textarea {
 	font-family: 'Merriweather', serif;
-	padding: 12px 15px;
+	padding: 17px 15px;
 	background-color: #ebebeb;
 	border: none;
 	color: #33313b;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 0.01em;
 }
 .order .select {
 	-webkit-appearance: none;
   	-moz-appearance: none;
   	appearance: none;
   	border: none;
-  	
+  	color: rgb(51, 49, 59, .7);
+  	padding-right: 35px;	
+}
+.select option {
+	-webkit-appearance: none;
+  	-moz-appearance: none;
+  	appearance: none;
+  	  color: rgb(51, 49, 59, 3);
 }
 .select-box {
 	position: relative;
@@ -67,14 +79,13 @@ form.reserv {
 	width: 20px;
 	height: 10px;
 }
-option:checked {
+option:checked,
+option:focus,
+option:hover {
 	background-color: #e16e69;
 	color: #fff;
 }
-option:focus {
-	background-color: #e16e69;
-	color: #fff;
-}
+
 textarea {
 	-webkit-appearance: none;
   	-moz-appearance: none;
@@ -96,7 +107,6 @@ textarea {
 	border: none;
 	width: 24px;
 	height: 24px;
-	font-weight: 400;
 	-webkit-appearance: none;
   	-moz-appearance: none;
   	appearance: none;
@@ -109,15 +119,16 @@ textarea {
 	display: none;
 	font-size: 20px;
   	color: #33313b;
-  	width: 24px;
-  	height: 24px;
+  	width: 25px;
+  	height: 25px;
 }
 input[type="checkbox"]:checked + label .icon-tick {
 	display: block;
 }
 .agreement label {
 	text-transform: none;
-	font-size: 18px;
+	font-size: 22px;
+	line-height: 25px;
 	color: #33313b;
 	margin-top: 10px;
 }
@@ -137,9 +148,10 @@ input[type="checkbox"]:checked + label .icon-tick {
 	justify-content: center;
 	align-items: center;
 	margin: 15px 0;
-	padding: 15px 5px;
-	width: 145px;
+	padding: 18px 5px;
+	width: 148px;
 	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
 	color: #fff;
 	font-weight: 700;
 	background-color: #e16e69;
@@ -156,12 +168,13 @@ input[type="checkbox"]:checked + label .icon-tick {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	margin: 20px 28px;
 }
 .circle  a {
 	text-decoration: none;
 	border-radius: 100%;
 	background-color: #fa364a;
-	margin: 10px;
+	margin: 15px 9px;
 	width: 63px;
 	height: 63px;
 	display: flex;
@@ -180,7 +193,9 @@ input[type="checkbox"]:checked + label .icon-tick {
 		margin: 5px 10px 10px;
 	}
 	.social-icons {
-		width: 100%;
+		width: 90%;
 		justify-content: center;
+		-ms-align-items: center;
+		align-items: center;
 	}
 }
